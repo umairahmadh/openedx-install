@@ -1,12 +1,12 @@
 {
-  "SECRET_KEY": "--- random secret key, e.g: You can generate a key at http://www.miniwebtool.com/django-secret-key-generator/ ---",
+  "SECRET_KEY": "AZS1FwLNHsuEAFd5Qrd1FjD9",
   "AWS_ACCESS_KEY_ID": "",
   "AWS_SECRET_ACCESS_KEY": "",
   "XQUEUE_INTERFACE": {
     "basic_auth": ["edx", "edx"],
     "django_auth": {
       "username": "lms",
-      "password": "password"
+      "password": "qWmvAS9cZN"
     },
     "url": "http://localhost:18040"
   },
@@ -24,11 +24,11 @@
   "DATABASES": {
     "default": {
       "ENGINE": "django.db.backends.mysql",
-      "NAME": "--- database name, e.g: edxapp ---",
-      "USER": "--- database user name, e.g: edxapp ---",
-      "PASSWORD": "--- database password ---",
-      "HOST": "--- database host, e.g: localhost ---",
-      "PORT": "--- database port, e.g: 3306 ---",
+      "NAME": "edxapp",
+      "USER": "edxapp",
+      "PASSWORD": "qWmvAS9cZN",
+      "HOST": "localhost",
+      "PORT": "3306",
       "ATOMIC_REQUESTS": true
     }
   }
